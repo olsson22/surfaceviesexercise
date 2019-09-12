@@ -9,7 +9,9 @@
     <com.example.myapplication.MySurfaceView
         android:id="@+id/surfaceView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,5 +21,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/mySeekBar"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="319dp" />
 
 </android.support.constraint.ConstraintLayout>
