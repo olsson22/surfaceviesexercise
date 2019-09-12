@@ -33,7 +33,7 @@ public class MySurfaceView extends SurfaceView {
 
         Bitmap theImg = BitmapFactory.decodeResource(getResources(), R.drawable.redcar);
         // scale the image before drawing it
-        Bitmap scaledImg = Bitmap.createScaledBitmap(theImg, size, size, true);
+        Bitmap scaledImg = Bitmap.createScaledBitmap(theImg, size, size, false);
         canvas.drawBitmap(scaledImg, 50,50, null);
     }
 
